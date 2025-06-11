@@ -1,0 +1,133 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--navy-blue);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--navy-blue);
+}
+
+/* header */
+.header-nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+  font-size: 18px;
+}
+
+.header-nav-logo .accent {
+  color: var(--iris);
+}
+
+.header-nav-list li a {
+  color: var(--slate);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-nav-list li a:hover {
+  color: var(--ocean);
+}
+
+.header-nav-list li a:active {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.contacts-list li a {
+  color: var(--slate);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contacts-list li a:hover {
+  color: var(--ocean);
+}
+
+/* hero-section */
+.hero-section {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--white);
+}
+
+.hero-button {
+  border-radius: 4px;
+  border: none;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  background: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+}
+
+/* benefits-section */
+
+.benefits-list li p {
+  font-size: 16px;
+}
+
+/* out-team */
+.out-team-list li p {
+  font-size: 16px;
+}
+
+/* portfolio */
+.portfolio-list li p {
+  font-size: 16px;
+}
+
+/* footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--cloud);
+  font-size: 18px;
+}
+
+.footer-nav-logo .accent {
+  color: var(--iris);
+}
+
+.footer p {
+  color: var(--cloud);
+}
