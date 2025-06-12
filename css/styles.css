@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -9,11 +9,12 @@
   --cloud: #f4f4fd;
   --white: #fff;
   --dairy: #fcfcfc;
-}
+} */
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--slate);
+  color: #434455;
+  background-color: #fff;
 }
 
 ul {
@@ -23,75 +24,81 @@ ul {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 /* header */
-.header-nav-logo {
+.nav-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #4d5ae5;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.header-nav-logo .accent {
-  color: var(--iris);
+.header .nav-logo .accent {
+  color: #2e2f42;
 }
 
-.header-nav-list li a {
-  color: var(--slate);
+.nav-list-item {
+  color: #434455;
   text-decoration: none;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.header-nav-list li a:hover {
-  color: var(--ocean);
+.nav-list-item:focus {
+  color: #404bbf;
 }
 
-.header-nav-list li a:active {
-  color: var(--ocean);
+.nav-list-item:active {
+  color: #404bbf;
   text-decoration: underline;
 }
 
-.contacts-list li a {
-  color: var(--slate);
-  text-decoration: none;
+.header-address {
   font-style: normal;
 }
 
-.contacts-list li a:hover {
-  color: var(--ocean);
+.contacts-list-item {
+  color: #434455;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list-item:focus {
+  color: #404bbf;
 }
 
 /* hero-section */
 .hero-section {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  color: var(--white);
+  color: #fff;
 }
 
 .hero-button {
   border-radius: 4px;
   border: none;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  background: var(--iris);
+  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  color: var(--white);
+  color: #fff;
 }
 
 /* benefits-section */
@@ -112,22 +119,13 @@ h3 {
 
 /* footer */
 .footer {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 
-.footer-nav-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--cloud);
-  font-size: 18px;
-}
-
-.footer-nav-logo .accent {
-  color: var(--iris);
+.footer .nav-logo .accent {
+  color: #f4f4fd;
 }
 
 .footer p {
-  color: var(--cloud);
+  color: #f4f4fd;
 }
